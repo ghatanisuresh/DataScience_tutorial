@@ -21,7 +21,7 @@ Linear_Regression.ipynb: This notebook covers multiple linear regression models,
 
 [Prediction.ipynb](https://github.com/ghatanisuresh/DataScience_tutorial/blob/main/Linear_Regression.ipynb): Focuses on linear regression concepts and predicts target variables based on a given set of predictors.
 
-# Automobile Data Wrangling Demo
+# Data Wrangling Demo
 
 This repository demonstrates various data wrangling techniques using a dataset related to automobiles. It includes cleaning, transforming, and analyzing the data to derive insights. This project is designed to help individuals understand how to handle messy datasets effectively and prepare them for analysis.
 
@@ -31,6 +31,32 @@ This repository demonstrates various data wrangling techniques using a dataset r
 - [**Automobile-Data-Wrangling-Demo.html**](https://github.com/ghatanisuresh/DataScience_tutorial/blob/main/Data-Wrangling/Automobile-Data-Wrangling-Demo.html): An HTML version of the Jupyter notebook, making it accessible for users who prefer to view the process in a browser without running the notebook.
 - [**clean_df.csv**](https://github.com/ghatanisuresh/DataScience_tutorial/blob/main/Data-Wrangling/clean_df.cssv): A cleaned version of the automobile dataset after wrangling, ready for analysis or further machine learning tasks.
 - [**LaptopPriceEDA.ipynb**](https://github.com/ghatanisuresh/DataScience_tutorial/blob/main/Data-Wrangling/LaptopPriceEDA.ipynb):  A comprehensive exploratory data analysis (EDA) of laptop prices. This notebook examines factors that influence laptop prices, using visualizations and data wrangling techniques to uncover trends and insights in the dataset. It provides an example of how data wrangling is applied to real-world datasets, making it an integral part of this project.
+
+# EDA:
+
+The EDA folder contains Jupyter notebooks focused on analyzing relationships between variables and uncovering patterns in the datasets. These notebooks explore pricing relationships in both cars and laptops, providing a deep dive into factors influencing their prices.
+
+Notebooks in the EDA Folder:
+
+[**CarPriceRelationship.ipynb**](EDA/CarPriceRelationship.ipynb): This notebook analyzes the relationship between various car features and their pricing. It covers:
+
+Feature correlation with price.
+Visualizing the influence of engine size, horsepower, and fuel type on car prices.
+Regression analysis to predict car prices based on key attributes.
+
+[**LaptopsPricingRelation.ipynb**](EDA/LaptopsPricingRelation.ipynb): In this notebook, the pricing trends of laptops are explored. It includes:
+
+Detailed exploration of how specifications like RAM, storage, and processor type impact laptop prices.
+Visualization of the relationships between these attributes and price using plots.
+A focus on understanding which laptop features are the most significant predictors of price.
+
+# Model Development
+This directory contains Jupyter notebooks that focus on developing predictive models using both linear and multiple linear regression techniques. The notebooks provide insights into building and evaluating regression models for real-world datasets.
+
+Notebooks in the Model Development Folder:
+[**Linear and Multiple LR.ipynb**](Model Development/Linear and Multiple LR.ipynb): This notebook covers both simple linear regression and multiple linear regression. It explores the following:
+   * Simple Linear Regression: Demonstrates how to build a model with one predictor variable, examining how the target variable (dependent variable) changes with the predictor.
+   * Multiple Linear Regression: Expands the model to include multiple predictor variables. It shows how to evaluate the model using metrics such as R², adjusted R², and Mean Squared Error (MSE).
 
 ## Key Processes
 
@@ -51,6 +77,8 @@ This repository demonstrates various data wrangling techniques using a dataset r
 
 - Python 3.x
 - Jupyter Notebook
+- google colab
+- github codespace
 - Pandas
 - NumPy
 - Matplotlib / Seaborn
@@ -70,40 +98,3 @@ git clone https://github.com/your-repo/automobile-data-wrangling-demo.git
 
 4. Alternatively, view the static HTML file to see the completed notebook in your browser.
 
-
-
-
-
-
-The second file  is simple exploration of data with melobourne datasets.
-
-The third file  is the basics of data analysis of European Education Data Analysis
-
-
-# Correlation Analysis
-
-The file 'correlation analysis' is the simple exploration which analyzes the relationship between various car attributes such as mpg, cylinders, displacement, horsepower, weight, and acceleration using a dataset from the UCI Machine Learning Repository. The analysis includes generating a correlation matrix and visualizing the results using a heatmap.
-
-**Features:**
-
-Load the Auto MPG dataset.
-
-Clean the data by handling missing values in the horsepower column.
-
-Calculate the correlation matrix for relevant attributes.
-
-Visualize the correlations using a heatmap.
-
-Rotate and align x-axis labels for improved readability.
-
-**Example Output:**
-
-Correlation matrix heatmap showing the relationships between different car attributes.
-
-**Technologies Used:**
-
-Python for data analysis and visualization.
-
-Pandas for data manipulation.
-
-Matplotlib and Seaborn for data visualization.
