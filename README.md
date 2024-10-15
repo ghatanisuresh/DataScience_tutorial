@@ -1,4 +1,57 @@
 # DataScience_tutorial
+
+# Automobile Data Wrangling Demo
+
+This repository demonstrates various data wrangling techniques using a dataset related to automobiles. It includes cleaning, transforming, and analyzing the data to derive insights. This project is designed to help individuals understand how to handle messy datasets effectively and prepare them for analysis.
+
+## Project Files
+
+- **Automobile-Data-Wrangling-Demo.ipynb**: This Jupyter notebook contains the main data wrangling process. It walks through the steps of handling missing values, correcting data types, and analyzing relationships between features.
+- **Automobile-Data-Wrangling-Demo.html**: An HTML version of the Jupyter notebook, making it accessible for users who prefer to view the process in a browser without running the notebook.
+- **clean_df.csv**: A cleaned version of the automobile dataset after wrangling, ready for analysis or further machine learning tasks.
+- **LaptopPriceEDA.ipynb**: 
+
+## Key Processes
+
+1. **Data Cleaning**:
+   - Handling missing values.
+   - Correcting data types.
+   - Normalizing and transforming values for consistency.
+  
+2. **Exploratory Data Analysis (EDA)**:
+   - Identifying relationships between features.
+   - Creating visualizations to summarize the data.
+
+3. **Data Preparation for Modeling**:
+   - Transforming categorical variables.
+   - Feature scaling and normalization.
+
+## Dependencies
+
+- Python 3.x
+- Jupyter Notebook
+- Pandas
+- NumPy
+- Matplotlib / Seaborn
+
+
+## Running the Project
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-repo/automobile-data-wrangling-demo.git
+```
+
+2. Install the required dependencies using `pip` or any other preferred package manager.
+
+3. Open the Jupyter notebook and run through the cells to follow the data wrangling steps.
+
+4. Alternatively, view the static HTML file to see the completed notebook in your browser.
+
+
+
+
 This first file ['DS.ipynb'](https://github.com/ghatanisuresh/DataScience_tutorial/blob/main/DS.ipynb) contains all the theory and explanation, which covers the basis of data science and methodolgy, with some examples.
 
 The second file [MelbourneHousePrices](https://github.com/ghatanisuresh/DataScience_tutorial/blob/main/MelbourneHousePrices.ipynb) is simple exploration of data with melobourne datasets.
