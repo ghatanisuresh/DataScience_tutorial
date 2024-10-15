@@ -38,13 +38,13 @@ The EDA folder contains Jupyter notebooks focused on analyzing relationships bet
 
 Notebooks in the EDA Folder:
 
-[**CarPriceRelationship.ipynb**](EDA/CarPriceRelationship.ipynb): This notebook analyzes the relationship between various car features and their pricing. It covers:
+[**CarPriceRelationship.ipynb**]([EDA/CarPriceRelationship.ipynb](https://github.com/ghatanisuresh/DataScience_tutorial/blob/main/EDA/CarPriceRelationship.ipynb)): This notebook analyzes the relationship between various car features and their pricing. It covers:
 
 Feature correlation with price.
 Visualizing the influence of engine size, horsepower, and fuel type on car prices.
 Regression analysis to predict car prices based on key attributes.
 
-[**LaptopsPricingRelation.ipynb**](EDA/LaptopsPricingRelation.ipynb): In this notebook, the pricing trends of laptops are explored. It includes:
+[**LaptopsPricingRelation.ipynb**]([EDA/LaptopsPricingRelation.ipynb](https://github.com/ghatanisuresh/DataScience_tutorial/blob/main/EDA/LaptopsPricingRelation.ipynb)): In this notebook, the pricing trends of laptops are explored. It includes:
 
 Detailed exploration of how specifications like RAM, storage, and processor type impact laptop prices.
 Visualization of the relationships between these attributes and price using plots.
@@ -54,7 +54,8 @@ A focus on understanding which laptop features are the most significant predicto
 This directory contains Jupyter notebooks that focus on developing predictive models using both linear and multiple linear regression techniques. The notebooks provide insights into building and evaluating regression models for real-world datasets.
 
 Notebooks in the Model Development Folder:
-[**Linear and Multiple LR.ipynb**](Model Development/Linear and Multiple LR.ipynb): This notebook covers both simple linear regression and multiple linear regression. It explores the following:
+
+[**Linear and Multiple LR.ipynb**](https://github.com/ghatanisuresh/DataScience_tutorial/blob/main/Model%20Development/Linear%20and%20Multiple%20LR.ipynb): This notebook covers both simple linear regression and multiple linear regression. It explores the following:
    * Simple Linear Regression: Demonstrates how to build a model with one predictor variable, examining how the target variable (dependent variable) changes with the predictor.
    * Multiple Linear Regression: Expands the model to include multiple predictor variables. It shows how to evaluate the model using metrics such as R², adjusted R², and Mean Squared Error (MSE).
 
