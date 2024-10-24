@@ -59,6 +59,22 @@ Notebooks in the Model Development Folder:
    * Simple Linear Regression: Demonstrates how to build a model with one predictor variable, examining how the target variable (dependent variable) changes with the predictor.
    * Multiple Linear Regression: Expands the model to include multiple predictor variables. It shows how to evaluate the model using metrics such as R², adjusted R², and Mean Squared Error (MSE).
 
+
+# Model Evaluation and Refinement
+
+In this section, the models were evaluated using cross-validation, polynomial feature transformations, Ridge Regression and GridSearchCV to improve predictive performance and prevent overfitting.
+
+After the initial model development, two key steps were taken to refine and evaluate the models:
+
+1. **Model Evaluation:**
+   - **File:** [model_evaluation.ipynb](https://github.com/ghatanisuresh/DataScience_tutorial/blob/main/ModelEvaluation-Refinement/model_evaluation.ipynb)
+   - **Description:** In this notebook, polynomial regression was applied to capture non-linear relationships between the features (`CPU_frequency`, `RAM_GB`, `Storage_GB_SSD`, etc.) and laptop prices. Different polynomial degrees were tested to evaluate their performance. Additionally, Ridge Regression was implemented with various values of alpha to regularize the model and prevent overfitting.
+
+2. **Model Refinement:**
+   - **File:** [laptopmodel_evaluation.ipynb](https://github.com/ghatanisuresh/DataScience_tutorial/blob/main/ModelEvaluation-Refinement/laptopmodel_evaluation.ipynb)
+   - **Description:** This notebook focused on refining the model by selecting the optimal alpha value in Ridge Regression. The R² scores for both the training and test data were analyzed to find the balance between underfitting and overfitting. The final model utilized polynomial features with Ridge Regression to achieve the best performance on unseen data.
+
+
 ## Key Processes
 
 1. **Data Cleaning**:
