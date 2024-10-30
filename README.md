@@ -74,6 +74,19 @@ After the initial model development, two key steps were taken to refine and eval
    - **File:** [laptopmodel_evaluation.ipynb](https://github.com/ghatanisuresh/DataScience_tutorial/blob/main/ModelEvaluation-Refinement/laptopmodel_evaluation.ipynb)
    - **Description:** This notebook focused on refining the model by selecting the optimal alpha value in Ridge Regression. The R² scores for both the training and test data were analyzed to find the balance between underfitting and overfitting. The final model utilized polynomial features with Ridge Regression to achieve the best performance on unseen data.
 
+# Project
+
+The "Project" directory includes real-world datasets and projects that integrate all concepts covered.
+
+Datasets:
+
+insurance.csv - Dataset used in medical insurance cost prediction.
+kc_house_data.csv - Dataset for predicting house prices.
+
+Notebooks:
+
+[HousePricePrediction.ipynb](/workspaces/DataScience_tutorial/Project/HousePricePrediction.ipynb) - A project to predict house prices based on Seattle housing data.
+[Medical_Insurance_Price_Prediction.ipynb](/workspaces/DataScience_tutorial/Project/Medical_Insurance_Price_Prediction.ipynb) - A project focused on predicting medical insurance costs.
 
 ## Key Processes
 
@@ -90,6 +103,32 @@ After the initial model development, two key steps were taken to refine and eval
    - Transforming categorical variables.
    - Feature scaling and normalization.
 
+4. **Model Development**:
+   - Builds models to predict target variables using single and multiple predictors, evaluated with metrics like R² and MSE.
+   - Captures non-linear relationships to improve model accuracy.
+   -  Adds regularization to reduce overfitting, optimized through hyperparameter tuning (alpha).
+   - Streamlines preprocessing and model training, with GridSearchCV for hyperparameter optimization.
+
+5. **Model Evaluation**:
+   
+   - Assessing model performance using various metrics, including R², Mean Squared Error (MSE), and cross-validation scores.
+   - Comparing model predictions against actual values to determine the accuracy and reliability of the model.
+   
+6. **Hyperparameter Tuning**:
+
+   - Utilizing techniques like GridSearchCV to identify optimal model parameters, improving the accuracy and generalizability of the model.
+   - Fine-tuning parameters such as regularization strength in Ridge Regression to balance between underfitting and overfitting.
+
+7. **Pipeline Creation**:
+
+   - Implementing machine learning pipelines to streamline workflows, combining data preprocessing, transformation, and modeling steps.
+   - Ensures reproducibility and efficiency, especially when experimenting with different models and parameters.
+
+8. **Project Deployment**:
+
+   - Using Streamlit to deploy interactive data applications, allowing end-users to explore and interact with data insights.
+   - Simplifies sharing insights and models by creating accessible web applications that demonstrate the project's findings and predictive capabilities.
+
 ## Dependencies
 
 - Python 3.x
@@ -99,19 +138,8 @@ After the initial model development, two key steps were taken to refine and eval
 - Pandas
 - NumPy
 - Matplotlib / Seaborn
+- Steamlit
 
 
-## Running the Project
 
-1. Clone the repository:
-
-```bash
-git clone https://github.com/your-repo/automobile-data-wrangling-demo.git
-```
-
-2. Install the required dependencies using `pip` or any other preferred package manager.
-
-3. Open the Jupyter notebook and run through the cells to follow the data wrangling steps.
-
-4. Alternatively, view the static HTML file to see the completed notebook in your browser.
 
